@@ -122,5 +122,6 @@ class TasksController extends Controller
         Session::flash('flash_message', 'Task successfully deleted!');
 
         return redirect()->route('tasks.index');
+        
     }
 }
